@@ -1,0 +1,350 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.20f1 (0e25a174756c) revision 927137'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Enterprise' Language: 'en' Physical Memory: 32454 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2023.2.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/s116218/source/repos/Seek
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+64999
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/s116218/source/repos/Seek
+C:/Users/s116218/source/repos/Seek
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29720] Host "[IP] 10.20.9.21 [Port] 0 [Flags] 2 [Guid] 333773259 [EditorId] 333773259 [Version] 1048832 [Id] WindowsEditor(7,LTHD204sFJWRK84) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29720] Host "[IP] 10.20.9.21 [Port] 0 [Flags] 2 [Guid] 333773259 [EditorId] 333773259 [Version] 1048832 [Id] WindowsEditor(7,LTHD204sFJWRK84) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 3.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.20f1 (0e25a174756c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2023.2.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/s116218/source/repos/Seek/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6500 (ID=0x743f)
+    Vendor:   ATI
+    VRAM:     4055 MB
+    Driver:   32.0.21028.21
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2023.2.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2023.2.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2023.2.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2023.2.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003045 seconds.
+- Loaded All Assemblies, in  0.276 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.208 seconds
+Domain Reload Profiling: 481ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (94ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (208ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\s116218\source\repos\Seek\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\s116218\source\repos\Seek\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.691 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.493 seconds
+Domain Reload Profiling: 1178ms
+	BeginReloadAssembly (290ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (98ms)
+			BuildScriptInfoCaches (15ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (493ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3982 unused Assets / (1.2 MB). Loaded Objects now: 4606.
+Memory consumption went from 167.7 MB to 166.5 MB.
+Total: 4.347000 ms (FindLiveObjects: 0.227900 ms CreateObjectMapping: 0.137500 ms MarkObjects: 3.257100 ms  DeleteObjects: 0.723600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4233.686386 seconds.
+  path: Assets/Vintage/Prefabs/book_2.prefab
+  artifactKey: Guid(b166b712d873b26459cbc94f94d473b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Prefabs/book_2.prefab using Guid(b166b712d873b26459cbc94f94d473b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27d43f9adc99f9bd2a29ed24412495ce') in 0.0920153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Vintage/Prefabs/tv.prefab
+  artifactKey: Guid(42a7acd56b9b4c44f91e4d393ed2adc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Prefabs/tv.prefab using Guid(42a7acd56b9b4c44f91e4d393ed2adc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eabd22cb829ba322d60dd14eb7dd5b31') in 0.0150934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Vintage/Prefabs/floor_rectangle.prefab
+  artifactKey: Guid(732bef5d5f763fc4eb8deb436a0715b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Prefabs/floor_rectangle.prefab using Guid(732bef5d5f763fc4eb8deb436a0715b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8aae282386a3dc8541da2ec1a315ba7') in 0.0229938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Vintage/Prefabs/curtain_1.prefab
+  artifactKey: Guid(a95030dbb8120404486f44a3e1aac4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Prefabs/curtain_1.prefab using Guid(a95030dbb8120404486f44a3e1aac4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ea8fe206f4672234c5b8eee2a4d2896') in 0.0166438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Vintage/Prefabs/bookshelf.prefab
+  artifactKey: Guid(22ff43bb1f7c97f40a646ef9c1cb0cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Prefabs/bookshelf.prefab using Guid(22ff43bb1f7c97f40a646ef9c1cb0cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec49dd959d902fdc499dd72d9bb47358') in 0.027338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Vintage/Prefabs/photo_2.prefab
+  artifactKey: Guid(1c75491b61fd45447a5071a7c72b06cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Prefabs/photo_2.prefab using Guid(1c75491b61fd45447a5071a7c72b06cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3b29b43114cbd1cf14662507ef2fa87') in 0.0180529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Vintage/Prefabs/vase_2.prefab
+  artifactKey: Guid(16781257d64bef643a5a15220e6cb72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Prefabs/vase_2.prefab using Guid(16781257d64bef643a5a15220e6cb72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9e0992c876b79298090c73a2b087f69') in 0.0205033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Vintage/Prefabs/photo_1.prefab
+  artifactKey: Guid(d2897f785e980eb42ba8dc80212e5967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Prefabs/photo_1.prefab using Guid(d2897f785e980eb42ba8dc80212e5967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a868ec54751dc26dc6037b9a9fa070c6') in 0.0332508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Vintage/Prefabs/wall_default_2 1.prefab
+  artifactKey: Guid(33cca6bb3065bc24392decfe7f9f1064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Prefabs/wall_default_2 1.prefab using Guid(33cca6bb3065bc24392decfe7f9f1064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9927672d01c86fb47e7606e5aae7ec8e') in 0.017236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Vintage/Prefabs/carpet_1.prefab
+  artifactKey: Guid(bf9629aaf2e4ab14498d601563585ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Prefabs/carpet_1.prefab using Guid(bf9629aaf2e4ab14498d601563585ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef2da231485392ba2a1004c6ba182886') in 0.0174584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Vintage/Prefabs/photo_frame_desk.prefab
+  artifactKey: Guid(df114a6a4ea6ca445811300a207cc559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Prefabs/photo_frame_desk.prefab using Guid(df114a6a4ea6ca445811300a207cc559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeb56c3b05a43d37ab8e7219d5b48eb0') in 0.0262988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.044911 seconds.
+  path: Assets/Vintage/Vintage Living Room Game Pack/Meshes/book_2.fbx
+  artifactKey: Guid(47135619bdb9c114086920b58eb2fd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Vintage Living Room Game Pack/Meshes/book_2.fbx using Guid(47135619bdb9c114086920b58eb2fd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd07e5c342e43afd1d7807a24e624dada') in 0.0656131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Vintage/Vintage Living Room Game Pack/Meshes/light_desk.fbx
+  artifactKey: Guid(60acb1fb42043d346bc65a46466d3598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Vintage Living Room Game Pack/Meshes/light_desk.fbx using Guid(60acb1fb42043d346bc65a46466d3598) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1881d2768e33ce5a7315b34e5d5f33e0') in 0.0502109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Vintage/Vintage Living Room Game Pack/Meshes/wall_with_one_window.fbx
+  artifactKey: Guid(11e9c01b9f792814582f0b68e3a6aa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Vintage Living Room Game Pack/Meshes/wall_with_one_window.fbx using Guid(11e9c01b9f792814582f0b68e3a6aa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '953cddd66c889d54603842f5d8d45fdf') in 0.0739538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Vintage/Vintage Living Room Game Pack/Meshes/sofa_small.fbx
+  artifactKey: Guid(260f56dffe7e2514f95ca01031a7fee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Vintage Living Room Game Pack/Meshes/sofa_small.fbx using Guid(260f56dffe7e2514f95ca01031a7fee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ca9f55caad820c49e851dca11ca78ec') in 0.0459195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Vintage/Vintage Living Room Game Pack/Meshes/bookshelf.fbx
+  artifactKey: Guid(347f56b195029d742b6bd3b4dced4729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Vintage Living Room Game Pack/Meshes/bookshelf.fbx using Guid(347f56b195029d742b6bd3b4dced4729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecd5514c0d1711616195a3afc1a83a43') in 0.0308702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Vintage/Vintage Living Room Game Pack/Meshes/painting_2.fbx
+  artifactKey: Guid(054e41663f1d7364d8a122a1c1992b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Vintage Living Room Game Pack/Meshes/painting_2.fbx using Guid(054e41663f1d7364d8a122a1c1992b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3beb21ef78bdf76703ff21c0f105a21') in 0.0260909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Vintage/Vintage Living Room Game Pack/Meshes/ceramic_tea_glass.fbx
+  artifactKey: Guid(84fa4c644e6cdf149826efb4d5879848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Vintage Living Room Game Pack/Meshes/ceramic_tea_glass.fbx using Guid(84fa4c644e6cdf149826efb4d5879848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '929c2020d6591ce976b1b6530e934fc2') in 0.0290734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Vintage/Vintage Living Room Game Pack/Meshes/vase_1.fbx
+  artifactKey: Guid(78e32fe7f6751714eaa12b5bc8b92f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Vintage Living Room Game Pack/Meshes/vase_1.fbx using Guid(78e32fe7f6751714eaa12b5bc8b92f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fe59cc223e0b2650d761fb929e6bd2c') in 0.0168851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Vintage/Vintage Living Room Game Pack/Meshes/vase_3.fbx
+  artifactKey: Guid(9dfe8949ad56ab7439a5db5d2745db7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Vintage Living Room Game Pack/Meshes/vase_3.fbx using Guid(9dfe8949ad56ab7439a5db5d2745db7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'beee414d4d0e9e4c0e47e07b4d39d688') in 0.0240096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Vintage/Vintage Living Room Game Pack/Meshes/wall_with_big_door.fbx
+  artifactKey: Guid(1d709fa2c0bfeb1409d6ba2b4f5361f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vintage/Vintage Living Room Game Pack/Meshes/wall_with_big_door.fbx using Guid(1d709fa2c0bfeb1409d6ba2b4f5361f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2c9e7247be9f7c3b966edd51fd53232') in 0.0629708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
